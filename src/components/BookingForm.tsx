@@ -7,7 +7,6 @@ import {
   CheckCircle2,
   Minus,
   Plus,
-  ShieldCheck,
   ArrowRight,
   AlertCircle,
 } from "lucide-react";
@@ -451,11 +450,6 @@ function BookingForm({ destinationName, price }: BookingFormProps) {
                   className="transition-transform group-hover:translate-x-1"
                 />
               </button>
-
-              <div className="flex items-center justify-center gap-2 text-xs text-gray-400">
-                <ShieldCheck size={15} />
-                Demo booking · No payment required
-              </div>
 
             </form>
           </>

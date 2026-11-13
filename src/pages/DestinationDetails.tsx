@@ -167,10 +167,10 @@ function DestinationDetails() {
       </section>
 
       {/* Main Details and Booking */}
-      <section className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-5 py-14 lg:grid-cols-3 lg:px-8">
+      <section className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-5 py-14 lg:grid-cols-[minmax(0,1.55fr)_minmax(400px,1fr)] lg:px-8">
 
         {/* Left Content */}
-        <div className="space-y-12 lg:col-span-2">
+        <div className="space-y-12">
 
           {/* About */}
           <div>
@@ -297,7 +297,7 @@ function DestinationDetails() {
         </div>
 
         {/* Booking Form */}
-        <div id="booking" className="lg:col-span-1">
+        <div id="booking" className="w-full">
           <div className="lg:sticky lg:top-28">
             <BookingForm
               destinationName={destination.name}
